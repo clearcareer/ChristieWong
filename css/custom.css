@@ -1,0 +1,64 @@
+.social-icons .fa {
+}
+
+.side-bg .background-image {
+    background-position: 0% 0%!important;
+}
+
+.social-icons .fa {
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+}
+
+.social-icons a {
+	padding: 20px;
+}
+
+h1.title-2 {
+	font-size: 50px;
+}
+
+.social-list {
+  overflow: hidden;
+  margin: 0;
+  padding:0;
+  margin: -10px;
+}
+.social-list li {
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  opacity: 1;
+  display: inline-block;
+  margin: 0;
+}
+.social-list li:not(:last-child) {
+  margin-right: 0;
+}
+.social-list li:hover {
+  opacity: .6;
+}
+.social-list li a {
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+
+}
+.social-list.social-list--circles li {
+  opacity: 1;
+}
+.social-list.social-list--circles li:not(:last-child) {
+  margin-right: 0.8125em;
+}
+.social-list.social-list--circles li a {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+}
+.social-list.social-list--circles li a i {
+  color: #fff;
+  font-size: 12px;
